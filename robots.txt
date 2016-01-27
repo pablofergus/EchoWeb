@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+User-agent: GoogleBot
+Allow: /
+
+User-agent: GoogleBot-Mobile
+Allow: /
+
+User-agent: yahoo-mmcrawler
+Allow: /
+
+Sitemap: http://echoband.es/sitemap.xml

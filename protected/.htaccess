@@ -1,0 +1,7 @@
+Authtype Basic
+AuthName "downloads"
+AuthUserFile /var/sites/e/echoband.es/.htpasswd
+Require user pablofergus
+<IfModule mod_dummy.c>
+AuthUserFile \\PDC1\sites\e\echoband.es\.htpasswd
+</IfModule>
