@@ -466,3 +466,7 @@ body {
     text-align: justify;
     text-indent: 50px;
 }
+
+.easter-egg {
+    display:none;
+}
