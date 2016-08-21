@@ -54,10 +54,13 @@ a {
     transition: all .2s ease-in-out;
 }
 
-a:hover,
+a:hover {
+    text-decoration: none;
+    color: #c183f6;
+}
 a:focus {
     text-decoration: none;
-    color: #fff;
+    color: #9f4dc6;
 }
 
 .light {
@@ -249,10 +252,14 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-.btn-circle:hover,
+.btn-circle:hover {
+    outline: 0;
+    color: #c183f6;
+
+}
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #9f4dc6;
     background: rgba(255,255,255,.1);
 }
 
@@ -313,27 +320,7 @@ a:focus {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 100px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-}
 
 .btn {
     border-radius: 0;
@@ -385,6 +372,14 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+}
+
+.icon-twitter-circled:hover {
+    color: #c183f6;
+}
+
+.icon-twitter-circled:focus {
+    color: #9f4dc6;
 }
 
 footer {
