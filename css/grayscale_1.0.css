@@ -465,3 +465,13 @@ body {
 .easter-egg {
     display:none;
 }
+
+.modal-content {
+  background-color: #343434;
+}
+
+.modal-header {
+  min-height: 16.42857143px;
+  padding: 15px;
+  border-bottom: 1px solid #343434;
+}
